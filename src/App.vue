@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, ref, stop, watch } from "vue";
+import { onMounted, ref, watch } from "vue";
 import globals from "@/globals.js";
 import Pagination from "./components/Pagination.vue";
 import { useTaskStore } from "@/store/TaskStore";
